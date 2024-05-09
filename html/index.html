@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Networks 2023: Exercise 1</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        .moving-title {
+            color: blue;
+            animation: moveTitle 2s infinite alternate;
+        }
+        .fixed-title {
+            color: red;
+        }
+        img {
+            max-width: 45%;
+            height: auto;
+            margin: 10px;
+        }
+        @keyframes moveTitle {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(10px); }
+        }
+    </style>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+
+    <h1 class="moving-title">Computer Networks 2023: Exercise 1</h1>
+
+    <h2 class="fixed-title">Adam Abro and Matthew Koton</h2>
+
+    <div>
+        <img src="computer.jpeg" alt="Image 1">
+        <img src="oceanpic.jpeg" alt="Image 2">
+    </div>
+
+    <!-- Form for submitting parameters -->
+    <form action="/submit" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="surname">Surname:</label><br>
+        <input type="text" id="surname" name="surname"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <p><a href="https://moodle.runi.ac.il/2024/course/view.php?id=2401572" target="_blank">Course Website</a></p>
+    
+    <p><a href="https://www.youtube.com/" target="_blank">Favorite Website</a></p>
+
+    <hr>
+
+</body>
+</html>
